@@ -1,0 +1,17 @@
+header {
+  background-color: #f55a5a;
+  color: #fff;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.header--title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.075em;
+}

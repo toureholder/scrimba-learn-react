@@ -1,0 +1,44 @@
+.card--container {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.card--container a {
+  color: #918e9b;
+}
+
+.card--container h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 10px 0 20px;
+}
+
+.card--container img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card--location {
+  display: flex;
+  align-items: center;
+}
+
+.card--location--name {
+  margin-right: 0.5rem;
+}
+
+.card--location .material-icons {
+  font-size: 10px;
+  color: #f55a5a;
+  margin-right: 5px;
+}
+
+.card--divider {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
