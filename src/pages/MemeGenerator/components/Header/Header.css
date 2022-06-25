@@ -1,0 +1,26 @@
+.meme-generator--header {
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #fff;
+}
+
+.meme-generator--header .app-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.meme-generator--header--brand {
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  margin-right: auto;
+}
+
+.meme-generator--header--subtitle {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}

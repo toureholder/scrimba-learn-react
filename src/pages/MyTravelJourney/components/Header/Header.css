@@ -1,4 +1,4 @@
-header {
+.my-travel-journey--header {
   background-color: #f55a5a;
   color: #fff;
   height: 55px;
@@ -7,7 +7,7 @@ header {
   align-items: center;
   gap: 7px;
 }
-.header--title {
+.my-travel-journey--header--title {
   margin: 0;
   font-style: normal;
   font-weight: 500;

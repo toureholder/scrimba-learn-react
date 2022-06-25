@@ -3,14 +3,14 @@ import "./Card.css";
 export default function Card(props) {
   return (
     <>
-      <div className="card--container">
+      <div className="my-travel-journey--card--container">
         <img src={props.imageUrl} alt=""></img>
 
         <div>
-          <div className="card--location">
+          <div className="my-travel-journey--card--location">
             <span className="material-icons">location_on</span>
 
-            <span className="card--location--name">
+            <span className="my-travel-journey--card--location--name">
               {props.location.toUpperCase()}
             </span>
 
@@ -29,7 +29,9 @@ export default function Card(props) {
         </div>
       </div>
 
-      {props.showDivider && <div className="card--divider"></div>}
+      {props.showDivider && (
+        <div className="my-travel-journey--card--divider"></div>
+      )}
     </>
   );
 }

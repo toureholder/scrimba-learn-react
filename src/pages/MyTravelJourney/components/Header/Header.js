@@ -2,9 +2,11 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header>
+    <header className="my-travel-journey--header">
       <span className="material-icons">public</span>
-      <span className="header--title">my travel journal.</span>
+      <span className="my-travel-journey--header--title">
+        my travel journal.
+      </span>
     </header>
   );
 }

@@ -1,43 +1,43 @@
-.card--container {
+.my-travel-journey--card--container {
   width: 100%;
   display: flex;
   gap: 2rem;
 }
 
-.card--container a {
+.my-travel-journey--card--container a {
   color: #918e9b;
 }
 
-.card--container h2 {
+.my-travel-journey--card--container h2 {
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
   margin: 10px 0 20px;
 }
 
-.card--container img {
+.my-travel-journey--card--container img {
   width: 125px;
   height: 168px;
   object-fit: cover;
   border-radius: 5px;
 }
 
-.card--location {
+.my-travel-journey--card--location {
   display: flex;
   align-items: center;
 }
 
-.card--location--name {
+.my-travel-journey--card--location--name {
   margin-right: 0.5rem;
 }
 
-.card--location .material-icons {
+.my-travel-journey--card--location .material-icons {
   font-size: 10px;
   color: #f55a5a;
   margin-right: 5px;
 }
 
-.card--divider {
+.my-travel-journey--card--divider {
   border-top: 1px solid #e0e0e0;
   margin-top: 2rem;
   padding-top: 2rem;
