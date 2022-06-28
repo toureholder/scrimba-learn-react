@@ -1,0 +1,22 @@
+.tenzies--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tenzies--title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #2b283a;
+  margin: 0;
+}
+
+.tenzies--title p {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  color: #4a4e74;
+  text-align: center;
+}
