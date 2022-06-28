@@ -7,16 +7,6 @@ import "./Tenzies.css";
 import Confetti from "react-confetti";
 
 export default class Tenzies extends Component {
-  constructor() {
-    super();
-    this.state = {
-      dice: this.getNewDice(),
-    };
-    this.rollDice = this.rollDice.bind(this);
-    this.freezeDice = this.freezeDice.bind(this);
-    this.resetGame = this.resetGame.bind(this);
-  }
-
   getRandomNumber() {
     return Math.floor(Math.random() * 6) + 1;
   }
@@ -32,25 +22,25 @@ export default class Tenzies extends Component {
     dice: this.getNewDice(),
   };
 
-  rollDice() {
+  rollDice = () => {
     this.setState((previousState) => ({
       dice: previousState.dice.map((die) =>
         die.isFrozen ? die : { ...die, value: this.getRandomNumber() }
       ),
     }));
-  }
+  };
 
-  freezeDice(selectedIndex) {
+  freezeDice = (selectedIndex) => {
     this.setState((previousState) => ({
       dice: previousState.dice.map((die, index) =>
         index !== selectedIndex ? die : { ...die, isFrozen: !die.isFrozen }
       ),
     }));
-  }
+  };
 
-  resetGame() {
+  resetGame = () => {
     this.setState({ dice: this.getNewDice() });
-  }
+  };
 
   render() {
     const isComplete = this.state.dice.every(
